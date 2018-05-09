@@ -1,0 +1,87 @@
+- name: Office Web Apps
+  href: office-web-apps-server.md
+  items:
+  - name: '콘텐츠 로드맵: Office Web Apps 서버'
+    href: content-roadmap-for-office-web-apps-server.md
+  - name: '인프라 배포: Office Web Apps 서버'
+    href: deploy-the-infrastructure-office-web-apps-server.md
+    items:
+    - name: '개요: Office Web Apps 서버'
+      href: office-web-apps-server-overview.md
+    - name: Office Web Apps 서버 계획
+      href: plan-office-web-apps-server.md
+    - name: Office Web Apps 서버 배포
+      href: deploy-office-web-apps-server.md
+    - name: 기술 참조
+      href: technical-reference-for-office-web-apps-server.md
+      items:
+      - name: Office Web Apps Server용 Windows PowerShell
+        href: windows-powershell-for-office-web-apps-server.md
+        items:
+        - name: Get-OfficeWebAppsFarm
+          href: get-officewebappsfarm.md
+        - name: Get-OfficeWebAppsHost
+          href: get-officewebappshost.md
+        - name: Get-OfficeWebAppsMachine
+          href: get-officewebappsmachine.md
+        - name: New-OfficeWebAppsFarm
+          href: new-officewebappsfarm.md
+        - name: New-OfficeWebAppsHost
+          href: new-officewebappshost.md
+        - name: New-OfficeWebAppsMachine
+          href: new-officewebappsmachine.md
+        - name: Remove-OfficeWebAppsHost
+          href: remove-officewebappshost.md
+        - name: Remove-OfficeWebAppsMachine
+          href: remove-officewebappsmachine.md
+        - name: Repair-OfficeWebAppsFarm
+          href: repair-officewebappsfarm.md
+        - name: Set-OfficeWebAppsFarm
+          href: set-officewebappsfarm.md
+        - name: Set-OfficeWebAppsMachine
+          href: set-officewebappsmachine.md
+  - name: SharePoint 2013과 함께 Office Web Apps 사용
+    href: use-office-web-apps-with-sharepoint-2013.md
+    items:
+    - name: SharePoint 2013의 Office Web Apps 온-프레미스
+      href: how-office-web-apps-work-on-premises-with-sharepoint-2013.md
+    - name: SharePoint 2013과 함께 사용할 때 제공되는 Office Web Apps의 새로운 기능
+      href: what’s-new-with-office-web-apps-when-used-with-sharepoint-2013.md
+    - name: Office Web Apps 계획
+      href: plan-office-web-apps-used-with-sharepoint-2013.md
+    - name: SharePoint 2013용 Office Web Apps 구성
+      href: configure-office-web-apps-for-sharepoint-2013.md
+    - name: 브라우저 지원 문서에 대한 기본 열기 동작 설정
+      href: set-the-default-open-behavior-for-browser-enabled-documents-office-web-apps-when-used-with-sharepoint-2013.md
+    - name: '비디오: SharePoint 2013용 Office Web Apps 구성'
+      href: video-configure-office-web-apps-for-sharepoint-2013.md
+    - name: 기술 참조
+      href: technical-reference-for-office-web-apps-with-sharepoint-2013.md
+      items:
+      - name: Office Web Apps용 Windows PowerShell
+        href: windows-powershell-for-office-web-apps-sharepoint-2013.md
+        items:
+        - name: Windows PowerShell을 사용하여 SharePoint 2013 관리
+          href: use-windows-powershell-to-administer-sharepoint-2013.md
+        - name: Get-SPWOPIBinding
+          href: get-spwopibinding.md
+        - name: Get-SPWOPISuppressionSetting
+          href: get-spwopisuppressionsetting.md
+        - name: Get-SPWOPIZone
+          href: get-spwopizone.md
+        - name: New-SPWOPIBinding
+          href: new-spwopibinding.md
+        - name: New-SPWOPISuppressionSetting
+          href: new-spwopisuppressionsetting.md
+        - name: Remove-SPWOPIBinding
+          href: remove-spwopibinding.md
+        - name: Remove-SPWOPISuppressionSetting
+          href: remove-spwopisuppressionsetting.md
+        - name: Set-SPWOPIBinding
+          href: set-spwopibinding.md
+        - name: Set-SPWOPIZone
+          href: set-spwopizone.md
+        - name: Update-SPWOPIProofKey
+          href: update-spwopiproofkey.md
+  - name: Office Web Apps 서버에 소프트웨어 업데이트 적용
+    href: apply-software-updates-to-office-web-apps-server.md
