@@ -133,7 +133,7 @@ SharePoint 2013에서 Office Web Apps로 문서를 편집하거나 볼 수 없�
 
 ## HTTPS를 사용하는 프로덕션 환경
 
-다음 절차를 시작하기 전에 [HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜 배포](e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5\(office.15\)#singlehttps) 또는 [HTTPS를 사용하는 부하 분산된 다중 서버 Office Web Apps 서버 팜 배포](e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5\(office.15\)#multihttps)의 단계를 수행하여 Office Web Apps 서버를 설정했는지 확인합니다.
+다음 절차를 시작하기 전에 [HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜 배포](deploy-office-web-apps-server.md) 또는 [HTTPS를 사용하는 부하 분산된 다중 서버 Office Web Apps 서버 팜 배포](deploy-office-web-apps-server.md)의 단계를 수행하여 Office Web Apps 서버를 설정했는지 확인합니다.
 
 ## 1단계: SharePoint 2013 관리 셸 열기
 

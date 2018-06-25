@@ -134,7 +134,7 @@ Outlook Web App에 대한 정보를 찾고 있는 IT 전문가는 [Exchange 2013
 <td><p>첫 번째 단계는 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버를 실행할 서버를 준비</a>하는 것입니다. 그런 다음 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버를 설치</a>하고 최신 Office Web Apps 서버 업데이트를 적용한 후 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버용 언어 팩을 설치</a>합니다.</p>
 <p><br />
 </p>
-<p>Office Web Apps 서버의 작동 방식을 평가하려면 <a href="deploy-office-web-apps-server.md">테스트 환경에 단일 서버 Office Web Apps 서버 팜을 배포</a>하면 됩니다. 좀 더 안전하게 배포하려면 <a href="e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5(office.15)#singlehttps">HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 배포</a>해도 됩니다. 많은 사용자를 지원해야 할 경우에는 <a href="e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5(office.15)#multihttps">HTTPS를 사용하는 다중 서버 부하 분산 Office Web Apps 서버 팜을 배포</a>하면 됩니다.</p>
+<p>Office Web Apps 서버의 작동 방식을 평가하려면 <a href="deploy-office-web-apps-server.md">테스트 환경에 단일 서버 Office Web Apps 서버 팜을 배포</a>하면 됩니다. 좀 더 안전하게 배포하려면 <a href="deploy-office-web-apps-server.md">HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 배포</a>해도 됩니다. 많은 사용자를 지원해야 할 경우에는 <a href="deploy-office-web-apps-server.md">HTTPS를 사용하는 다중 서버 부하 분산 Office Web Apps 서버 팜을 배포</a>하면 됩니다.</p>
 <p><br />
 </p>
 <p>Office Web Apps 서버를 배포한 후에는 호스트를 구성해야 합니다. <a href="configure-office-web-apps-for-sharepoint-2013.md">SharePoint 2013을 구성</a>하고, <a href="http://go.microsoft.com/fwlink/p/?linkid=256611">Exchange Server 2013을 구성</a>한 후 <a href="http://go.microsoft.com/fwlink/p/?linkid=256902">Lync Server 2013을 구성</a>하여 Office Web Apps 서버를 사용할 수 있습니다.</p>
