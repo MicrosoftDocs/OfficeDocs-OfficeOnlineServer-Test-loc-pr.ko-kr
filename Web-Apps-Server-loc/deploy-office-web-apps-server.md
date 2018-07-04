@@ -234,6 +234,7 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 이제 팜이 HTTP를 통해 호스트에 Office Web Apps 기능을 제공할 준비가 되었습니다. [SharePoint 2013용 Office Web Apps 구성](configure-office-web-apps-for-sharepoint-2013.md)을 방문하여 호스트를 구성하는 방법에 대한 자세한 내용을 알아보세요.
 
 ## HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜 배포
+<a name="singlehttps"> </a>
 
 대부분의 프로덕션 환경에서는 보안 기능으로 HTTPS를 사용하는 것이 좋습니다. HTTPS는 Office Web Apps 서버 기능을 Lync Server 2013에 제공하여 브라우저에서 PowerPoint 브로드캐스트를 볼 수 있도록 하려는 경우에도 필요합니다. 다음은 HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 설치하는 방법입니다. [HTTPS를 사용하여 Office Web Apps 서버 통신 보안 유지](plan-office-web-apps-server.md)에 설명된 대로 서버에 인증서를 설치해야 합니다.
 
@@ -299,6 +300,7 @@ default="true" ext="xls"/><action name="view"
   - [Office Web Apps Server 및 Lync Server 2013 배포](https://go.microsoft.com/fwlink/p/?linkid=256902)
 
 ## HTTPS를 사용하는 부하 분산된 다중 서버 Office Web Apps 서버 팜 배포
+<a name="multihttps"> </a>
 
 Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되고 인터넷과 내부 네트워크를 통해 사용할 수 있도록 하려면 이와 같은 유형의 토폴로지를 사용하는 것이 적절합니다. 이 섹션에는 부하 분산 장치 및 HTTPS를 사용하는 다중 서버 Office Web Apps 서버 팜을 설치하는 방법이 나와 있습니다. 관심이 있는 경우 [이 토폴로지에 대한 자세한 정보](plan-office-web-apps-server.md)를 읽어보세요.
 
