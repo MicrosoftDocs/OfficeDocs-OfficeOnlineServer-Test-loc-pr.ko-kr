@@ -27,7 +27,7 @@ SharePoint 2013 문서 라이브러리에서 문서를 열려면 문서 제목�
 
 기본적으로 Office Web Apps 서버를 사용하도록 SharePoint 2013을 구성한 경우 Word, PowerPoint, Excel 또는 OneNote 파일을 클릭하면 파일이 브라우저에서 열립니다. PDF 문서는 Word Web App에서 열립니다. 다음 두 가지 방법으로 이 기본 동작을 변경하여 파일이 클라이언트 응용 프로그램(또는 기본 PDF 뷰어)에서 대신 열리도록 할 수 있습니다.
 
-  - **SharePoint 2013 팜의 경우** [New-SPWOPIBinding](new-spwopibinding.md) 및 [Set-SPWOPIBinding](set-spwopibinding.md)Windows PowerShell cmdlet을 사용하여 SharePoint 2013 팜에 대한 기본 열기 동작을 파일 형식별로 조정할 수 있습니다. 이러한 cmdlet을 사용하여 [PDF 문서의 동작을 조정](http://go.microsoft.com/fwlink/p/?linkid=330246)할 수도 있습니다.
+  - **SharePoint 2013 팜의 경우** [New-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPIBinding?view=sharepoint-ps) 및 [Set-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIBinding?view=sharepoint-ps)Windows PowerShell cmdlet을 사용하여 SharePoint 2013 팜에 대한 기본 열기 동작을 파일 형식별로 조정할 수 있습니다. 이러한 cmdlet을 사용하여 [PDF 문서의 동작을 조정](http://go.microsoft.com/fwlink/p/?linkid=330246)할 수도 있습니다.
 
   - **사이트 모음 또는 문서 라이브러리의 경우** 사이트 모음 관리자 및 사용자는 SharePoint 2013의 OpenInClient 기능을 사용하여 Office 파일이 클라이언트 응용 프로그램에서 열리도록 할지, 브라우저에서 열리도록 할지를 지정할 수 있습니다. 사용자는 문서 라이브러리 속성에서 이 설정을 변경할 수 있으며, 사이트 모음 관리자는 사이트 모음 관리에서 또는 [Enable-SPFeature](https://technet.microsoft.com/ko-kr/library/ff607803\(v=office.15\)) cmdlet으로 OpenInClient 기능을 사용하도록 설정함으로써 이 설정을 변경할 수 있습니다. OpenInClient 기능을 사용하도록 설정하는 여러 가지 방법은 다음 섹션을 참조하세요.
 
@@ -45,7 +45,7 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
 
 
 > [!NOTE]
-> 이러한 절차 중 일부에서는 SharePoint 2013 관리 셸을 사용하여 SharePoint cmdlet을 실행합니다. Windows PowerShell 콘솔을 사용하려면 <STRONG>Add-PSSnapin</STRONG> cmdlet을 사용하여 Microsoft.SharePoint.PowerShell 스냅인을 추가해야 합니다. SharePoint 2013에서 Windows PowerShell을 사용하는 방법에 대한 자세한 내용은 <A href="use-windows-powershell-to-administer-sharepoint-2013.md">Windows PowerShell을 사용하여 SharePoint 2013 관리</A>를 참조하세요.
+> 이러한 절차 중 일부에서는 SharePoint 2013 관리 셸을 사용하여 SharePoint cmdlet을 실행합니다. Windows PowerShell 콘솔을 사용하려면 <STRONG>Add-PSSnapin</STRONG> cmdlet을 사용하여 Microsoft.SharePoint.PowerShell 스냅인을 추가해야 합니다. SharePoint 2013에서 Windows PowerShell을 사용하는 방법에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">Windows PowerShell을 사용하여 SharePoint 2013 관리</A>를 참조하세요.
 
 
 
@@ -79,7 +79,7 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
     
 
     > [!NOTE]
-    > 사용 권한이 없는 경우에는 설치 관리자 또는 SQL Server 관리자에게 문의하여 요청하도록 합니다. Windows PowerShell 사용 권한에 대한 자세한 내용은 <A href="use-windows-powershell-to-administer-sharepoint-2013.md">사용 권한</A> 및 <A href="https://technet.microsoft.com/ko-kr/library/ff607596(v=office.15)">Add-SPShellAdmin</A>을 참조하세요.
+    > 사용 권한이 없는 경우에는 설치 관리자 또는 SQL Server 관리자에게 문의하여 요청하도록 합니다. Windows PowerShell 사용 권한에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">사용 권한</A> 및 <A href="https://technet.microsoft.com/ko-kr/library/ff607596(v=office.15)">Add-SPShellAdmin</A>을 참조하세요.
 
 
 
@@ -157,7 +157,7 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
     
 
     > [!NOTE]
-    > 사용 권한이 없는 경우에는 설치 관리자 또는 SQL Server 관리자에게 문의하여 요청하도록 합니다. Windows PowerShell 사용 권한에 대한 자세한 내용은 <A href="use-windows-powershell-to-administer-sharepoint-2013.md">사용 권한</A> 및 <A href="https://technet.microsoft.com/ko-kr/library/ff607596(v=office.15)">Add-SPShellAdmin</A>을 참조하세요.
+    > 사용 권한이 없는 경우에는 설치 관리자 또는 SQL Server 관리자에게 문의하여 요청하도록 합니다. Windows PowerShell 사용 권한에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">사용 권한</A> 및 <A href="https://technet.microsoft.com/ko-kr/library/ff607596(v=office.15)">Add-SPShellAdmin</A>을 참조하세요.
 
 
 
@@ -194,11 +194,11 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
 ## 참고 항목
 
 
-[Get-SPWOPIBinding](get-spwopibinding.md)  
+[Get-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIBinding?view=sharepoint-ps)  
 
 
 [Office Web Apps 서버의 콘텐츠 로드맵](content-roadmap-for-office-web-apps-server.md)  
-[Windows PowerShell을 사용하여 SharePoint 2013 관리](use-windows-powershell-to-administer-sharepoint-2013.md)  
+[Windows PowerShell을 사용하여 SharePoint 2013 관리](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps)  
 [Office Web Apps 서버](office-web-apps-server.md)  
 
 

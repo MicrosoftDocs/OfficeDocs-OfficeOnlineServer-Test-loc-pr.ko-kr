@@ -208,7 +208,7 @@ Office Web Apps 서버 팜을 사용하여 SharePoint 2013에 Office Web Apps �
 
   - **–EditingEnabled**는 SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -259,7 +259,7 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
   - **–EditingEnabled**는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -324,7 +324,7 @@ Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되�
 
   - **–EditingEnabled**는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 기타 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 기타 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -334,7 +334,7 @@ Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되�
 
     New-OfficeWebAppsMachine -MachineToJoin "server1.contoso.com"
 
-이러한 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsMachine](new-officewebappsmachine.md)에서 확인할 수 있습니다.
+이러한 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsMachine](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsmachine?view=officewebapps-ps)에서 확인할 수 있습니다.
 
 ## 3단계: Office Web Apps 서버 팜이 정상적으로 만들어졌는지 확인
 
@@ -378,8 +378,8 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 ## 참고 항목
 
 
-[New-OfficeWebAppsFarm](new-officewebappsfarm.md)  
-[New-OfficeWebAppsMachine](new-officewebappsmachine.md)  
+[New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)  
+[New-OfficeWebAppsMachine](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsmachine?view=officewebapps-ps)  
 
 
 [Office Web Apps 서버의 콘텐츠 로드맵](content-roadmap-for-office-web-apps-server.md)  

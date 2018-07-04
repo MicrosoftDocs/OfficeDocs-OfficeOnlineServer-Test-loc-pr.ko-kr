@@ -83,7 +83,7 @@ HTTP를 사용할지, HTTPS를 사용할지에 따라 다음 섹션 중 하나�
 
 이 명령을 실행하면 Windows PowerShell 명령 프롬프트에 바인딩 목록이 표시됩니다.
 
-도움이 필요하면 [New-SPWOPIBinding](new-spwopibinding.md)을 참조하세요.
+도움이 필요하면 [New-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPIBinding?view=sharepoint-ps)을 참조하세요.
 
 ## 3단계: SharePoint 바인딩에 대한 WOPI 영역 확인
 
@@ -93,7 +93,7 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
 이 명령에 따라 표시되는 WOPI 영역은 **internal-http**여야 합니다. 이 영역이 제대로 표시되면 5단계로 건너뛰고, 제대로 표시되지 않으면 다음 단계를 참조하세요.
 
-도움이 필요하면 [Get-SPWOPIZone](get-spwopizone.md)을 참조하세요.
+도움이 필요하면 [Get-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIZone?view=sharepoint-ps)을 참조하세요.
 
 ## 4단계: WOPI 영역을 internal-http로 변경
 
@@ -103,7 +103,7 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
 **Get-SPWOPIZone**을 다시 실행하여 새 영역이 **internal-http**인지 확인합니다.
 
-도움이 필요하면 [Set-SPWOPIZone](set-spwopizone.md) 및 [Get-SPWOPIZone](get-spwopizone.md)을 참조하세요.
+도움이 필요하면 [Set-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIZone?view=sharepoint-ps) 및 [Get-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIZone?view=sharepoint-ps)을 참조하세요.
 
 ## 5단계: SharePoint 2013에서 AllowOAuthOverHttp 설정을 True로 변경
 
@@ -159,7 +159,7 @@ SharePoint 2013에서 Office Web Apps로 문서를 편집하거나 볼 수 없�
 
     New-SPWOPIBinding -ServerName <WacServerName> 
 
-도움이 필요하면 [New-SPWOPIBinding](new-spwopibinding.md)을 참조하세요.
+도움이 필요하면 [New-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPIBinding?view=sharepoint-ps)을 참조하세요.
 
 ## 3단계: SharePoint 2013의 WOPI 영역 확인
 
@@ -169,7 +169,7 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
 표시되는 WOPI 영역을 적어 둡니다.
 
-도움이 필요하면 [Get-SPWOPIZone](get-spwopizone.md)을 참조하세요.
+도움이 필요하면 [Get-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIZone?view=sharepoint-ps)을 참조하세요.
 
 ## 4단계: 필요한 경우 WOPI 영역 변경
 
@@ -179,7 +179,7 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
     Set-SPWOPIZone -zone "external-https"
 
-도움이 필요하면 [Set-SPWOPIZone](set-spwopizone.md)을 참조하세요.
+도움이 필요하면 [Set-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIZone?view=sharepoint-ps)을 참조하세요.
 
 ## 5단계: Office Web Apps가 작동하는지 확인
 
@@ -225,7 +225,7 @@ Office Web Apps가 SharePoint 2013과 함께 사용할 때 정상적으로 작�
 
     Get-SPWOPIBinding
 
-출력에서 **WopiZone: *영역***을 찾습니다. Get-SPWopiZone의 결과가 Get-SPWOPIBinding에서 반환되는 영역과 일치하지 않으면 SharePoint Server에서 **Set-SPWOPIZone -Zone** cmdlet을 실행하여Get-SPWOPIBinding의 결과와 일치하도록 WOPI 영역을 변경합니다. 이러한 cmdlet을 사용하는 방법에 대한 도움말은 [Get-SPWOPIBinding](get-spwopibinding.md), [Set-SPWOPIBinding](set-spwopibinding.md) 및 [Get-SPWOPIZone](get-spwopizone.md)을 참조하세요.
+출력에서 **WopiZone: *영역***을 찾습니다. Get-SPWopiZone의 결과가 Get-SPWOPIBinding에서 반환되는 영역과 일치하지 않으면 SharePoint Server에서 **Set-SPWOPIZone -Zone** cmdlet을 실행하여Get-SPWOPIBinding의 결과와 일치하도록 WOPI 영역을 변경합니다. 이러한 cmdlet을 사용하는 방법에 대한 도움말은 [Get-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIBinding?view=sharepoint-ps), [Set-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIBinding?view=sharepoint-ps) 및 [Get-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Get-SPWOPIZone?view=sharepoint-ps)을 참조하세요.
 
 ## 문제: Office Web Apps에서 Office 문서를 편집하려고 하면 "죄송합니다. 이 문서는 편집용으로 열 수 없습니다."라는 오류가 표시됩니다.
 
@@ -239,7 +239,7 @@ Office Web Apps가 SharePoint 2013과 함께 사용할 때 정상적으로 작�
 
 HTTP를 사용하는 테스트 환경에서 Office Web Apps를 설정한 경우 5단계: SharePoint 2013에서 AllowOAuthOverHttp 설정을 True로 변경에 설명된 바와 같이 AllowOAuthOverHttp 설정을 **True**로 설정했는지 확인합니다.
 
-[New-OfficeWebAppsHost](new-officewebappshost.md) cmdlet을 사용하여 허용 목록에 도메인을 추가한 적이 있다면 허용 목록에 있는 호스트 도메인에서 Office Web Apps에 액세스하고 있는지 확인하세요. 허용 목록의 호스트 도메인을 보려면 Office Web Apps 서버에서 관리자 권한으로 Windows PowerShell 프롬프트를 열고 [Get-OfficeWebAppsHost](get-officewebappshost.md) cmdlet을 실행합니다. 허용 목록에 도메인을 추가하려면 [New-OfficeWebAppsHost](new-officewebappshost.md) cmdlet을 사용합니다.
+[New-OfficeWebAppsHost](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappshost?view=officewebapps-ps) cmdlet을 사용하여 허용 목록에 도메인을 추가한 적이 있다면 허용 목록에 있는 호스트 도메인에서 Office Web Apps에 액세스하고 있는지 확인하세요. 허용 목록의 호스트 도메인을 보려면 Office Web Apps 서버에서 관리자 권한으로 Windows PowerShell 프롬프트를 열고 [Get-OfficeWebAppsHost](https://docs.microsoft.com/en-us/powershell/module/officewebapps/get-officewebappshost?view=officewebapps-ps) cmdlet을 실행합니다. 허용 목록에 도메인을 추가하려면 [New-OfficeWebAppsHost](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappshost?view=officewebapps-ps) cmdlet을 사용합니다.
 
 ## 문제: Office Web Apps에서 Office 문서를 보려고 하면 "죄송합니다. 서비스 사용량이 많아 Word Web App에서 이 문서를 열 수 없습니다. 나중에 다시 시도하세요."라는 오류가 표시됩니다.
 
@@ -277,7 +277,7 @@ Office Web Apps 서버에서 데이터 연결 정보를 저장하는 ODC(Office 
 
 6.  통합 문서를 SharePoint 문서 라이브러리에 다시 업로드합니다.
 
-사용자가 데이터 모델 또는 Power View 보기가 포함된 통합 문서를 브라우저 창에서 사용할 수 있도록 하려면 통합 문서를 표시하도록 SharePoint Server의 Excel 서비스를 구성합니다. 이렇게 하려면 SharePoint 관리자가 SharePoint Server가 설치된 서버에서 New-SPWOPISupressionSetting cmdlet을 실행해야 합니다. 자세한 내용은 [New-SPWOPISuppressionSetting](new-spwopisuppressionsetting.md) 및 [SharePoint Server 2013에서 Excel Services 관리](https://technet.microsoft.com/ko-kr/library/ee681487\(v=office.15\))를 참조하십시오.
+사용자가 데이터 모델 또는 Power View 보기가 포함된 통합 문서를 브라우저 창에서 사용할 수 있도록 하려면 통합 문서를 표시하도록 SharePoint Server의 Excel 서비스를 구성합니다. 이렇게 하려면 SharePoint 관리자가 SharePoint Server가 설치된 서버에서 New-SPWOPISupressionSetting cmdlet을 실행해야 합니다. 자세한 내용은 [New-SPWOPISuppressionSetting](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps) 및 [SharePoint Server 2013에서 Excel Services 관리](https://technet.microsoft.com/ko-kr/library/ee681487\(v=office.15\))를 참조하십시오.
 
 ## Office Web Apps 서버에서 SharePoint 2013 연결 끊기
 
@@ -285,13 +285,13 @@ Office Web Apps 서버에서 데이터 연결 정보를 저장하는 ODC(Office 
 
     Remove-SPWOPIBinding -All:$true
 
-도움이 필요하면 [Remove-SPWOPIBinding](remove-spwopibinding.md)을 참조하십시오.
+도움이 필요하면 [Remove-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Remove-SPWOPIBinding?view=sharepoint-ps)을 참조하십시오.
 
 ## 참고 항목
 
 
-[New-SPWOPIBinding](new-spwopibinding.md)  
-[Set-SPWOPIZone](set-spwopizone.md)  
+[New-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPIBinding?view=sharepoint-ps)  
+[Set-SPWOPIZone](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIZone?view=sharepoint-ps)  
 
 
 [Office Web Apps 서버의 콘텐츠 로드맵](content-roadmap-for-office-web-apps-server.md)  
