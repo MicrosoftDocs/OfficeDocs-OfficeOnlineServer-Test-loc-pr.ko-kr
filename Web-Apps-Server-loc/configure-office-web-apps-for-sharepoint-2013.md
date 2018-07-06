@@ -1,4 +1,4 @@
-﻿---
+---
 title: SharePoint 2013용 Office Web Apps 구성
 TOCTitle: SharePoint 2013용 Office Web Apps 구성
 ms:assetid: a5276781-133b-413c-beca-b851e17c2081
@@ -113,11 +113,15 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
 이 명령이 **False**를 반환하면 다음 명령을 실행하여 **True**로 설정합니다.
 
+```
     $config = (Get-SPSecurityTokenServiceConfig)
-
+```
+```
     $config.AllowOAuthOverHttp = $true
-
+```
+```
     $config.Update()
+```
 
 다음 명령을 다시 실행하여 AllowOAuthOverHttp 설정이 현재 **True**로 설정되어 있는지 확인합니다.
 

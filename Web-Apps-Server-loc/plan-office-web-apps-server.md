@@ -448,5 +448,5 @@ WSUS 또는 System Center 구성 관리자를 사용하지 않으려면 Office W
 [(데스크톱 또는 모바일 장치에서 Office Web Apps에 대 한 지원)에 대 한 Office.com](https://go.microsoft.com/fwlink/p/?linkid=266657)  
   
 
-[apply-software-updates-to-office-web-apps-server.md](apply-software-updates-to-office-web-apps-server.md)
+[https://technet.microsoft.com/ko-kr/library/jj966220](apply-software-updates-to-office-web-apps-server.md)
 

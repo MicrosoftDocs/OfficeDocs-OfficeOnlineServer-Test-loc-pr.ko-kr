@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 서버 배포
 TOCTitle: Office Web Apps 서버 배포
 ms:assetid: e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5
@@ -369,9 +369,12 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
 **Windows Server 2008 R2의 경우**
 
+```
     %systemroot%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -iru
-
+```
+```
     iisreset /restart /noforce
+```
 
 **Windows Server 2012 또는 Windows Server 2012 R2의 경우**
 
