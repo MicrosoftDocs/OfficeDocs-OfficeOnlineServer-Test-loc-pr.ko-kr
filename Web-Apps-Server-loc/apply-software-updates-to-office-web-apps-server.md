@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_**적용 대상:** Office Web Apps Server
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16
 
 **요약:** Office Web Apps 서버 팜에 소프트웨어 업데이트를 적용하는 방법에 대해 설명합니다.
 
@@ -73,7 +73,9 @@ Office Web Apps 서버용으로 출시되는 업데이트는 Office Web Apps 서
 
 2.  소프트웨어 업데이트를 적용할 Office Web Apps 서버에서 관리자 권한으로 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다.
     
+    ```PowerShell
         Remove-OfficeWebAppsMachine
+    ```
 
 3.  이 서버에 Office Web Apps 서버 업데이트를 설치합니다. 메시지가 나타나면 서버를 다시 시작합니다.
 
@@ -81,7 +83,9 @@ Office Web Apps 서버용으로 출시되는 업데이트는 Office Web Apps 서
     
     다음 예제의 코드는 http://Contoso-WAC라는 새 Office Web Apps 서버 팜을 만듭니다.
     
+    ```PowerShell
         New-OfficeWebAppsFarm -InternalURL "http://Contoso-WAC" -AllowHttp -EditingEnabled
+    ```
     
     변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수에 대한 설명은 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 나와 있습니다.
 
@@ -97,7 +101,9 @@ Office Web Apps 서버용으로 출시되는 업데이트는 Office Web Apps 서
 
 3.  해당 Office Web Apps 서버에서 관리자 권한으로 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다.
     
+    ```PowerShell
         Remove-OfficeWebAppsMachine
+    ```
 
 4.  이 서버에 Office Web Apps 서버 업데이트를 설치합니다. 메시지가 나타나면 서버를 다시 시작합니다.
 
@@ -105,7 +111,9 @@ Office Web Apps 서버용으로 출시되는 업데이트는 Office Web Apps 서
     
     다음 예제의 코드는 http://Contoso-WAC라는 새 Office Web Apps 서버 팜을 만듭니다.
     
+    ```PowerShell
         New-OfficeWebAppsFarm -InternalURL "http://Contoso-WAC" -AllowHttp -EditingEnabled
+    ```
     
     변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수에 대한 설명은 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 나와 있습니다.
 
@@ -119,7 +127,9 @@ Office Web Apps 서버용으로 출시되는 업데이트는 Office Web Apps 서
     
     3.  관리자 권한으로 Windows PowerShell 프롬프트를 열고 다음 명령을 실행합니다. **–MachineToJoin** 매개 변수는 현재 서버를 기존 Office Web Apps 서버 팜에 추가합니다. 이 경우 업데이트된 Office Web Apps 서버 팜에 서버를 추가할 수 있습니다. 따라서 업데이트된 Office Web Apps 서버 팜에 있는 서버 중 하나의 컴퓨터 이름을 사용합니다.
         
+        ```PowerShell
             New-OfficeWebAppsMachine -MachineToJoin "server1.contoso.com"
+        ```
 
 ## 참고 항목
 

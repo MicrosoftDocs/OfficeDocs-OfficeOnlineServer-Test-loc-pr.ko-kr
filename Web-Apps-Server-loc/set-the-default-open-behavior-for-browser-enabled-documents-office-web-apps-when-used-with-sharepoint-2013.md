@@ -9,13 +9,11 @@ mtps_version: v=office.15
 ms.translationtype: HT
 ---
 
-# 브라우저 지원 문서에 대한 기본 열기 동작 설정(Office Web Apps를 SharePoint 2013과 함께 사용하는 경우)
+# 브라우저 지원 문서에 대한 기본 열기 동작 설정(Office Web Apps를 SharePoint 2013과 함께 사용하는 경우) 
 
- 
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
-
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** SharePoint 사이트 모음 및 문서 라이브러리에서 Office 문서의 기본 열기 동작을 구성하는 방법에 대해 설명합니다.
 
@@ -48,12 +46,8 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
 > 이러한 절차 중 일부에서는 SharePoint 2013 관리 셸을 사용하여 SharePoint cmdlet을 실행합니다. Windows PowerShell 콘솔을 사용하려면 <STRONG>Add-PSSnapin</STRONG> cmdlet을 사용하여 Microsoft.SharePoint.PowerShell 스냅인을 추가해야 합니다. SharePoint 2013에서 Windows PowerShell을 사용하는 방법에 대한 자세한 내용은 <A href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">Windows PowerShell을 사용하여 SharePoint 2013 관리</A>를 참조하세요.
 
 
-
-
 > [!NOTE]
 > Office 2013 제품군의 작업은 마우스, 바로 가기 키 또는 터치를 사용하여 완료할 수 있습니다. Office 제품 및 서비스에서 바로 가기 키와 터치를 사용하는 방법에 대한 자세한 내용은 <A href="http://go.microsoft.com/fwlink/p/?linkid=249150">바로 가기 키</A> 및 <A href="http://go.microsoft.com/fwlink/p/?linkid=253163">Office 터치 가이드</A>를 참조하세요.
-
-
 
  **사이트 모음에 대한 OpenInClient 기능 설정**
 
@@ -107,23 +101,33 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
     
       - 모든 사이트 모음에 대해 OpenInClient 기능을 사용하도록 설정(브라우저에서 문서 열기)하려면 다음 명령을 입력합니다.
         
+        ```PowerShell
             Enable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url <SiteCollURL>
-        
+        ```
+        ```  
         여기서 *\<SiteCollURL\>*은 사이트 모음의 URL입니다.
+        ```
     
       - 모든 사이트 모음에 대해 OpenInClient 기능을 사용하도록 설정(클라이언트 응용 프로그램에서 문서 열기)하려면 다음 명령을 입력합니다.
         
+        ```PowerShell
             Get-SPSite -limit ALL |foreach{ Enable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url $_.URL }
+        ```
     
       - 특정 사이트 모음에 대해 OpenInClient 기능을 사용하지 않도록 설정(브라우저에서 문서 열기)하려면 다음 명령을 입력합니다.
         
+        ```PowerShell
             Disable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url <SiteCollURL>
-        
+        ```
+        ```  
         여기서 *\<SiteCollURL\>*은 사이트 모음의 URL입니다.
+        ```
     
       - 모든 사이트 모음에 대해 OpenInClient 기능을 사용하지 않도록 설정(브라우저에서 문서 열기)하려면 다음 명령을 입력합니다.
-        
-            Get-SPSite -limit ALL |foreach{ Disable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url $_.URL }
+
+        ```PowerShell  
+            Get-SPSite -limit ALL |foreach{ Disable-SPFeature 8A4B8DE2-6FD8-41e9-923C-C7C3C00F8295 -url $_.URL 
+        ``` 
 
  **문서 라이브러리 설정 페이지를 사용하여 문서 라이브러리의 기본 열기 동작 설정**
 
@@ -165,31 +169,33 @@ SharePoint 2013에서 OpenInClient 기능을 설정하려면 다음 절차 중 �
     
     **Windows Server 2008의 경우**
     
-    1.  **시작** 메뉴에서 **모든 프로그램**을 선택합니다.
+    1.  **시작** 메뉴에서 **모든 프로그램** 을 선택합니다.
     
-    2.  **Microsoft SharePoint 2013 제품**을 선택합니다.
+    2.  **Microsoft SharePoint 2013 제품** 을 선택합니다.
     
-    3.  **SharePoint 2013 관리 셸**을 선택하고 마우스 오른쪽 단추를 클릭하여 바로 가기 메뉴를 표시합니다.
+    3.  **SharePoint 2013 관리 셸** 을 선택하고 마우스 오른쪽 단추를 클릭하여 바로 가기 메뉴를 표시합니다.
     
-    4.  바로 가기 메뉴에서 **관리자 권한으로 실행**을 선택합니다.
+    4.  바로 가기 메뉴에서 **관리자 권한으로 실행** 을 선택합니다.
     
     **Windows Server 2012의 경우**
     
-    1.  화면 모서리에서 살짝 밀어 참을 표시한 다음 **검색**을 선택하여 컴퓨터에 설치되어 있는 응용 프로그램을 모두 표시합니다.
+    1.  화면 모서리에서 살짝 밀어 참을 표시한 다음 **검색** 을 선택하여 컴퓨터에 설치되어 있는 응용 프로그램을 모두 표시합니다.
     
-    2.  **SharePoint 2013 관리 셸**을 선택(마우스 오른쪽 단추로 클릭)하여 앱 바를 표시합니다.
+    2.  **SharePoint 2013 관리 셸** 을 선택(마우스 오른쪽 단추로 클릭)하여 앱 바를 표시합니다.
     
-    3.  앱 바에서 **관리자 권한으로 실행**을 선택합니다.
+    3.  앱 바에서 **관리자 권한으로 실행** 을 선택합니다.
 
 3.  Windows PowerShell 명령 프롬프트에서 다음 명령을 입력합니다.
     
+      ```PowerShell
         Get-SPWeb -site <SiteCollURL> | % {$_.Lists} | where {$_.IrmEnabled -eq $true} | % {$_.DefaultItemOpen =[Microsoft.Sharepoint.DefaultItemOpen]::<DefaultItemOpenSetting>; $_.Update()}
+      ```
     
     여기서 각 부분이 나타내는 의미는 다음과 같습니다.
     
       - *\<SiteCollURL\>*은 문서 라이브러리가 있는 사이트 모음의 URL입니다.
     
-      - *\<DefaultItemOpenSetting\>*은 기본 열기 동작을 지정하는 **DefaultItemOpen** 열거형 값입니다. 연결된 클라이언트 응용 프로그램(사용 가능한 경우)에서 문서를 열려면 **PreferClient**를 사용하고, 브라우저에서 문서를 열려면 **Browser**를 사용합니다.
+      - *\<DefaultItemOpenSetting\>*은 기본 열기 동작을 지정하는 **DefaultItemOpen** 열거형 값입니다. 연결된 클라이언트 응용 프로그램(사용 가능한 경우)에서 문서를 열려면 **PreferClient** 를 사용하고, 브라우저에서 문서를 열려면 **Browser** 를 사용합니다.
 
 ## 참고 항목
 
