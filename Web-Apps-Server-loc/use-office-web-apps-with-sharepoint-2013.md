@@ -1,4 +1,4 @@
-﻿---
+---
 title: SharePoint 2013과 함께 Office Web Apps 사용
 TOCTitle: SharePoint 2013과 함께 Office Web Apps 사용
 ms:assetid: 8a58e6c2-9a0e-4355-ae41-4df25e5e6eee
@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2017-05-26_
+_**마지막으로 수정된 항목:** 2017-05-26_
 
 **요약:** SharePoint 2013 온-프레미스용 Office Web Apps를 배포하고 구성하는 방법에 대한 정보를 제공하는 문서를 소개합니다.
 
