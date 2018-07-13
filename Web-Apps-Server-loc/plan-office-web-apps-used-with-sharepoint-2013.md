@@ -1,4 +1,4 @@
-﻿---
+---
 title: SharePoint 2013과 함께 사용되는 Office Web Apps 계획
 TOCTitle: Office Web Apps 계획
 ms:assetid: 3bd0a617-5f12-4a7e-bb75-b15c86c7e504
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** SharePoint 2013 온-프레미스와 함께 사용하는 경우의 Office Web Apps에 대한 계획 지침을 검토합니다.
 
@@ -69,7 +69,7 @@ Office Web Apps를 SharePoint 2010과 함께 설치한 경우 SharePoint 2013으
 
 Word, PowerPoint, Excel 및 OneNote 파일이 클라이언트 응용 프로그램(설치되어 있는 경우)에서 열리는지 아니면 브라우저에서 열리는지를 구성할 수 있습니다. 기본적으로 SharePoint 2013이 Office Web Apps 서버를 사용하도록 구성하고 나면 Office 파일은 브라우저에서 열립니다. 다음 두 가지 방법으로 이 기본 동작을 변경하여 파일이 클라이언트 응용 프로그램에서 바로 열리도록 할 수 있습니다.
 
-  - **SharePoint 2013 팜의 경우** [New-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPIBinding?view=sharepoint-ps) 및 [Set-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Set-SPWOPIBinding?view=sharepoint-ps)Windows PowerShell cmdlet을 사용하여 SharePoint 2013 팜에 대해 파일 형식별로 기본 열기 동작을 조정할 수 있습니다.
+  - **SharePoint 2013 팜의 경우** [New-SPWOPIBinding](new-spwopibinding.md) 및 [Set-SPWOPIBinding](set-spwopibinding.md)Windows PowerShell cmdlet을 사용하여 SharePoint 2013 팜에 대해 파일 형식별로 기본 열기 동작을 조정할 수 있습니다.
 
   - **사이트 모음 또는 문서 라이브러리의 경우** 사이트 모음 관리자 및 사용자는 Office 파일이 클라이언트 응용 프로그램(설치되어 있는 경우)에서 열리도록 할지를 지정할 수 있습니다. 사용자는 문서 라이브러리 속성에서 이 설정을 변경할 수 있으며 사이트 모음 관리자는 사이트 모음 관리에서 또는 Install-SPFeature cmdlet을 사용하여 OpenInClient 기능을 설치함으로써 이 설정을 변경할 수 있습니다. 자세한 내용은 [Install-SPFeature](https://technet.microsoft.com/ko-kr/library/ff607825\(v=office.15\))를 참조하십시오.
 
