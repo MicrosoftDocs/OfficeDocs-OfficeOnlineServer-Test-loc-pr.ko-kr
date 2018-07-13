@@ -39,7 +39,7 @@ _**마지막으로 수정된 항목:**2016-12-16_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="windows-powershell-for-office-web-apps-server.md">Office Web Apps Server용 Windows PowerShell</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/?view=officewebapps-ps">Office Web Apps Server용 Windows PowerShell</a></p></td>
 <td><p>Office Web Apps 서버용 Windows PowerShell cmdlet이 나와 있습니다.</p></td>
 </tr>
 </tbody>

@@ -41,7 +41,7 @@ Office Web Apps는 온-프레미스에서 SharePoint 2013과 함께 사용하는
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="windows-powershell-for-office-web-apps-sharepoint-2013.md">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></td>
 <td><p>SharePoint 2013이 Office Web Apps를 사용하도록 구성하는 Windows PowerShell cmdlet 목록이 나와 있습니다.</p></td>
 </tr>
 </tbody>

@@ -111,5 +111,5 @@ Office Web Apps 서버에서는 http://*OfficeWebAppsServername*/op/generate.asp
 [Office Web Apps 서버 배포](deploy-office-web-apps-server.md)  
   
 
-[deploy-office-web-apps-server.md](deploy-office-web-apps-server.md)
+[https://technet.microsoft.com/ko-kr/library/jj219455](deploy-office-web-apps-server.md)
 

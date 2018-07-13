@@ -46,7 +46,7 @@ Office Web Apps 라이선스에서는 두 가지 옵션이 제공됩니다.
 
 SharePoint 2013에서는 Office Web Apps에서 작동하는 새로운 라이선스 적용 기능을 제공합니다. SharePoint 라이선스를 사용하도록 설정한 다음 Office Web Apps 편집을 사용하도록 설정하면 해당하는 라이선스가 있는 사용자만 실제로 브라우저에서 Office 파일을 편집할 수 있습니다. 사용자에게 적용된 Office Web Apps 편집 라이선스가 없으면 보기 기능만 지원됩니다.
 
-라이선스가 SharePoint 2013에서 작동하는 방법에 대한 자세한 내용은 [SharePoint Server 2013에서 라이선스 구성](https://technet.microsoft.com/ko-kr/library/jj219627\(v=office.15\))을 참조하세요. 편집 기능을 사용하도록 설정하는 EditingEnabled 매개 변수에 대한 설명은 [New-OfficeWebAppsFarm](new-officewebappsfarm.md) 및 [Set-OfficeWebAppsFarm](set-officewebappsfarm.md)에 나와 있습니다.
+라이선스가 SharePoint 2013에서 작동하는 방법에 대한 자세한 내용은 [SharePoint Server 2013에서 라이선스 구성](https://technet.microsoft.com/ko-kr/library/jj219627\(v=office.15\))을 참조하세요. 편집 기능을 사용하도록 설정하는 EditingEnabled 매개 변수에 대한 설명은 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) 및 [Set-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/set-officewebappsfarm?view=officewebapps-ps)에 나와 있습니다.
 
 SharePoint 2013의 링크로 공유 기능을 통해 전송되는 파일은 편집 라이선스가 없고 Office Web Apps 서버 팜에 대해 편집이 사용하지 않도록 설정되어 있어도 Office Web Apps에서 편집할 수 있습니다.
 
@@ -54,7 +54,7 @@ SharePoint 2013의 링크로 공유 기능을 통해 전송되는 파일은 편�
 
 Office Web Apps 서버에서는 Office 모바일 뷰어를 제공하여 SharePoint Server 사이트에 액세스하는 모바일 사용자가 Office Web Apps를 사용할 수 있도록 합니다. Office 모바일 뷰어는 기본적으로 사용하도록 설정되지만 SharePoint Server 사이트 관리자가 사용하지 않도록 설정할 수도 있습니다. 이 뷰어를 사용하도록 설정하면 각자의 모바일 장치 브라우저를 사용하여 SharePoint Server 사이트로 이동한 후 SharePoint Server 라이브러리에서 열려는 문서를 누르면 해당 문서가 모바일 브라우저에서 열립니다.
 
-[SharePoint 2013의 새로운 모바일 장치 기능](https://technet.microsoft.com/ko-kr/library/fp161352\(v=office.15\)) 및 [Overview of mobile devices and SharePoint Server 2013](https://technet.microsoft.com/ko-kr/library/fp161351\(v=office.15\))에서 모바일 장치의 SharePoint 라이브러리에 대해 자세히 알아볼 수 있습니다. 사용자는 [Android, iPhone 또는 Windows Phone에서 Office Web Apps 사용](http://go.microsoft.com/fwlink/p/?linkid=271045)을 통해 모바일 장치에서 Office 모바일 뷰어를 사용하는 방법에 대해 자세히 알아볼 수 있습니다. SharePoint 2013에서 Office 모바일 뷰어를 사용하지 않도록 결정한 경우 [Remove-SPWOPIBinding](remove-spwopibinding.md) cmdlet을 사용하세요.
+[SharePoint 2013의 새로운 모바일 장치 기능](https://technet.microsoft.com/ko-kr/library/fp161352\(v=office.15\)) 및 [Overview of mobile devices and SharePoint Server 2013](https://technet.microsoft.com/ko-kr/library/fp161351\(v=office.15\))에서 모바일 장치의 SharePoint 라이브러리에 대해 자세히 알아볼 수 있습니다. 사용자는 [Android, iPhone 또는 Windows Phone에서 Office Web Apps 사용](http://go.microsoft.com/fwlink/p/?linkid=271045)을 통해 모바일 장치에서 Office 모바일 뷰어를 사용하는 방법에 대해 자세히 알아볼 수 있습니다. SharePoint 2013에서 Office 모바일 뷰어를 사용하지 않도록 결정한 경우 [Remove-SPWOPIBinding](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Remove-SPWOPIBinding?view=sharepoint-ps) cmdlet을 사용하세요.
 
 ## SharePoint의 Excel Services와 Excel Web App 간 차이점
 
@@ -64,7 +64,7 @@ SharePoint의 Excel Services 및 Excel Web App은 매우 비슷하지만 같지�
 
 Excel Web App 및 Excel Services 간의 차이점에 대한 자세한 내용은 [SharePoint Server 2013의 Excel Services 개요](https://technet.microsoft.com/ko-kr/library/ee424405\(v=office.15\)) 및 [SharePoint의 Excel Services와 Excel Web App 비교](http://go.microsoft.com/fwlink/p/?linkid=255460)를 참조하세요.
 
-조직에서 Excel Web App이 아닌 Excel Services를 사용하여 브라우저에서 통합 문서를 보도록 하는 경우에는 Windows PowerShell **New-SPWOPISuppressionSettings** cmdlet을 사용하여 Excel 통합 문서에 대해 Excel Web App을 해제할 수 있습니다. 자세한 내용은 [New-SPWOPISuppressionSetting](new-spwopisuppressionsetting.md)을 참조하십시오.
+조직에서 Excel Web App이 아닌 Excel Services를 사용하여 브라우저에서 통합 문서를 보도록 하는 경우에는 Windows PowerShell **New-SPWOPISuppressionSettings** cmdlet을 사용하여 Excel 통합 문서에 대해 Excel Web App을 해제할 수 있습니다. 자세한 내용은 [New-SPWOPISuppressionSetting](https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps)을 참조하십시오.
 
 ## 참고 항목
 
