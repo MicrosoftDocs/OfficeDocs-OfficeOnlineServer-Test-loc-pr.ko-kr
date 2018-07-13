@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_<strong>적용 대상:</strong>Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2017-10-10_
+_<strong>마지막으로 수정된 항목:</strong>2017-10-10_
 
 **요약:** HTTPS, 인증서, 가상화, 부하 분산, 토폴로지 및 보안 등 Office Web Apps 서버의 요구 사항과 필수 구성 요소에 대해 설명합니다.
 

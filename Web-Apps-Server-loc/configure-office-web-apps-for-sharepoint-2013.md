@@ -11,11 +11,11 @@ ms.translationtype: HT
 
 # SharePoint 2013용 Office Web Apps 구성 
 
-**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013
+**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013
 
-**마지막으로 수정된 항목:** 2016-12-16
+**마지막으로 수정된 항목:**2016-12-16
 
-**요약:** Office Web Apps를 사용하도록 SharePoint 2013을 구성하는 방법을 설명합니다.
+**요약:**Office Web Apps를 사용하도록 SharePoint 2013을 구성하는 방법을 설명합니다.
 
 **대상:** IT 전문가
 

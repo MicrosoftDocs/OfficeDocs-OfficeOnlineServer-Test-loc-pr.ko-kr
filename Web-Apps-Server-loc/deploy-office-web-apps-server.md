@@ -11,9 +11,9 @@ ms.translationtype: HT
 
 # Office Web Apps 서버 배포 
 
-_**적용 대상:** Office Web Apps Server_
+_<strong>적용 대상:</strong>Office Web Apps Server_
 
-_**마지막으로 수정된 항목:** 2017-10-05_
+_<strong>마지막으로 수정된 항목:</strong>2017-10-05_
 
 **요약:** SharePoint 2013 및 Lync Server 2013에서 사용할 수 있도록 Office Web Apps 서버 온-프레미스를 배포하는 방법을 설명합니다.
 
