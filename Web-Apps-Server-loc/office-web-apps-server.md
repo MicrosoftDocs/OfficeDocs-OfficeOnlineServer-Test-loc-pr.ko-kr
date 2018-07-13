@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 서버
 TOCTitle: '@NoTitle'
 ms:assetid: e75c9827-f5ce-4099-a08c-b42fde72ea98
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, Office Web Apps Server, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, Office Web Apps Server, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** 새로 업데이트된 Office Web Apps 아키텍처에서 Office Web Apps 서버를 사용하는 데 도움이 되는 문서를 소개합니다.
 
