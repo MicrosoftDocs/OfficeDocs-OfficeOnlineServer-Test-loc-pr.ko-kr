@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 기술 참조(SharePoint 2013 포함)
 TOCTitle: 기술 참조
 ms:assetid: ef0b4cbd-f198-44a8-80f4-355494488f80
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** SPWOPI Windows PowerShell cmdlet 도움말 등의 Office Web Apps 관련 기술 참조 문서를 소개합니다.
 
@@ -41,7 +41,7 @@ Office Web Apps는 온-프레미스에서 SharePoint 2013과 함께 사용하는
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></td>
+<td><p><a href="windows-powershell-for-office-web-apps-sharepoint-2013.md">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></td>
 <td><p>SharePoint 2013이 Office Web Apps를 사용하도록 구성하는 Windows PowerShell cmdlet 목록이 나와 있습니다.</p></td>
 </tr>
 </tbody>

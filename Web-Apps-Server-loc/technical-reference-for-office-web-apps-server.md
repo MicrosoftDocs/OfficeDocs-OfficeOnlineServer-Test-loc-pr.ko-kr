@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps Server 기술 참조
 TOCTitle: 기술 참조
 ms:assetid: aa64a67c-d83a-4548-ac85-9f749b7dc407
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_**적용 대상:** Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** OfficeWebApps Windows PowerShell cmdlet 도움말 등의 Office Web Apps Server 관련 기술 참조 문서에 대한 링크를 제공합니다.
 
@@ -39,7 +39,7 @@ _**마지막으로 수정된 항목:**2016-12-16_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/?view=officewebapps-ps">Office Web Apps Server용 Windows PowerShell</a></p></td>
+<td><p><a href="windows-powershell-for-office-web-apps-server.md">Office Web Apps Server용 Windows PowerShell</a></p></td>
 <td><p>Office Web Apps 서버용 Windows PowerShell cmdlet이 나와 있습니다.</p></td>
 </tr>
 </tbody>

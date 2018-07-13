@@ -1,4 +1,4 @@
-﻿---
+---
 title: '인프라 배포: Office Web Apps 서버'
 TOCTitle: '인프라 배포: Office Web Apps 서버'
 ms:assetid: ec93a103-8072-435f-9e80-897c0aa7b914
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_**적용 대상:** Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** Office Web Apps Server 및 이 제품이 호스트에 대해 Office Web Apps 기능을 제공하는 방법에 관해 설명하는 문서를 소개합니다.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 서버 개요
 TOCTitle: '개요: Office Web Apps 서버'
 ms:assetid: 4b199a88-387f-4121-820d-7af580e2a3e8
@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_**적용 대상:** Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2017-05-26_
+_**마지막으로 수정된 항목:** 2017-05-26_
 
 **요약:** Office Web Apps 서버 및 이 제품에서 지원되는 호스트에 대해 브라우저 기반 Office 기능을 제공하는 방법을 설명합니다.
 
@@ -111,5 +111,5 @@ Office Web Apps 서버에서는 http://*OfficeWebAppsServername*/op/generate.asp
 [Office Web Apps 서버 배포](deploy-office-web-apps-server.md)  
   
 
-[https://technet.microsoft.com/ko-kr/library/jj219455](deploy-office-web-apps-server.md)
+[deploy-office-web-apps-server.md](deploy-office-web-apps-server.md)
 

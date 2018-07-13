@@ -9,7 +9,9 @@ mtps_version: v=office.15
 ms.translationtype: HT
 ---
 
-# Office Web Apps 서버 배포 
+# Office Web Apps 서버 배포
+
+ 
 
 _**적용 대상:** Office Web Apps Server_
 
@@ -83,15 +85,11 @@ Windows Server 2008 R2, Windows Server 2012 및 Windows Server 2012 R2의 필수
 
 2.  Windows PowerShell 프롬프트를 관리자 권한으로 열고 다음 명령을 실행하여 필요한 역할과 서비스를 설치합니다.
     
-    ```PowerShell
         Import-Module ServerManager
-    ```
     
     그런 후 다음 명령을 실행합니다.
-
-    ```PowerShell    
+    
         Add-WindowsFeature Web-Server,Web-WebServer,Web-Common-Http,Web-Static-Content,Web-App-Dev,Web-Asp-Net,Web-Net-Ext,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,Web-Security,Web-Windows-Auth,Web-Filtering,Web-Stat-Compression,Web-Dyn-Compression,Web-Mgmt-Console,Ink-Handwriting,IH-Ink-Support,NET-Framework,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-Win-CFAC
-    ```
     
     메시지가 표시되면 서버를 다시 시작합니다.
 
@@ -99,9 +97,7 @@ Windows Server 2008 R2, Windows Server 2012 및 Windows Server 2012 R2의 필수
 
 1.  Windows PowerShell 프롬프트를 관리자 권한으로 열고 다음 명령을 실행하여 필요한 역할과 서비스를 설치합니다.
     
-    ```PowerShell
         Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45
-    ```
     
     메시지가 표시되면 서버를 다시 시작합니다.
 
@@ -113,9 +109,7 @@ Windows Server 2008 R2, Windows Server 2012 및 Windows Server 2012 R2의 필수
 
 2.  Windows PowerShell 프롬프트를 관리자 권한으로 열고 이 명령을 실행하여 필요한 역할과 서비스를 설치합니다.
     
-    ```PowerShell
         Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,InkandHandwritingServices,NET-Framework-Features,NET-Framework-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45
-    ```
     
     메시지가 표시되면 서버를 다시 시작합니다.
 
@@ -141,13 +135,19 @@ Office Web Apps 서버를 실행할 모든 서버에서 다음 단계를 완료�
 
 6.  [Office Web Apps Server SP1](https://go.microsoft.com/fwlink/p/?linkid=510097)을 다운로드한 후 설치합니다(Windows Server 2012 및 Windows Server 2008 R2 SP1에는 권장되며 Windows Server 2012 R2에는 필수임).
     
+
     > [!NOTE]
     > 나중에 Office Web Apps 서버 SP1을 적용할 때 <A href="apply-software-updates-to-office-web-apps-server.md">Office Web Apps 서버에 소프트웨어 업데이트 적용</A>의 지침을 따르세요.
 
-7.  [Office, Office Server 및 관련 제품의 TechNet 업데이트 센터](https://go.microsoft.com/fwlink/p/?linkid=280271)에서 해당 목록을 검토하여 최근의 Office Web Apps 서버 업데이트를 확인합니다.    
+
+
+7.  [Office, Office Server 및 관련 제품의 TechNet 업데이트 센터](https://go.microsoft.com/fwlink/p/?linkid=280271)에서 해당 목록을 검토하여 최근의 Office Web Apps 서버 업데이트를 확인합니다.
+    
 
     > [!NOTE]
     > Office Web Apps Server SP1을 설치하지 않은 경우 <A href="https://go.microsoft.com/fwlink/p/?linkid=296579">KB2810007</A>을 적용합니다.
+
+
 
 ## 3단계: Office Web Apps 서버의 언어 팩 설치
 
@@ -160,9 +160,9 @@ Office Web Apps 서버 2013년 언어 팩을 사용하면 SharePoint 2013 문서
 
 2.  **WebAppsServerLP\_en-us\_x64.exe**를 실행합니다.
 
-3.  Office Web Apps 서버 2013년 언어 팩 마법사의 **Microsoft 소프트웨어 사용권 조항 보기** 페이지에서 **동의함**, **계속** 을 차례로 선택합니다.
+3.  Office Web Apps 서버 2013년 언어 팩 마법사의 **Microsoft 소프트웨어 사용권 조항 보기** 페이지에서 **동의함**, **계속**을 차례로 선택합니다.
 
-4.  Office Web Apps 서버의 설치가 완료되면 **닫기** 를 선택합니다.
+4.  Office Web Apps 서버의 설치가 완료되면 **닫기**를 선택합니다.
 
 
 > [!IMPORTANT]
@@ -172,6 +172,8 @@ Office Web Apps 서버 2013년 언어 팩을 사용하면 SharePoint 2013 문서
 > <LI>
 > <P>언어 팩이 제대로 작동하려면 팜에 있는 모든 서버에 설치해야 합니다.</P></LI></UL>
 
+
+
 ## Office Web Apps 서버 팜 배포
 
 만들려는 Office Web Apps 서버 팜 종류에 따라 다음의 세 가지 섹션 중 하나에 포함된 절차를 수행합니다.
@@ -179,6 +181,8 @@ Office Web Apps 서버 2013년 언어 팩을 사용하면 SharePoint 2013 문서
 
 > [!TIP]
 > <STRONG>New-OfficeWebAppsFarm</STRONG> cmdlet을 실행할 때 Windows PowerShell에서 이 cmdlet을 인식하지 못하면 <STRONG>OfficeWebApps</STRONG> 모듈을 가져와야 할 수도 있습니다. 다음 명령을 사용하세요.<BR><CODE>Import-Module -Name OfficeWebApps</CODE>
+
+
 
 ## HTTP를 사용하는 단일 서버 Office Web Apps 서버 팜 배포
 
@@ -194,9 +198,7 @@ Office Web Apps 서버 팜을 사용하여 SharePoint 2013에 Office Web Apps �
 
 **New-OfficeWebAppsFarm** 명령을 사용하여 다음 예제와 같이 단일 서버로 구성되는 새로운 Office Web Apps 서버 팜을 만들 수 있습니다.
 
-```PowerShell
     New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp -EditingEnabled
-```
 
 **매개 변수**
 
@@ -206,7 +208,7 @@ Office Web Apps 서버 팜을 사용하여 SharePoint 2013에 Office Web Apps �
 
   - **–EditingEnabled**는 SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -214,13 +216,10 @@ Office Web Apps 서버 팜을 사용하여 SharePoint 2013에 Office Web Apps �
 
 팜을 만들고 나면 팜에 대한 세부 정보가 Windows PowerShell 프롬프트에 표시됩니다. Office Web Apps 서버가 제대로 설치 및 구성되었는지 확인하려면 다음 예제에 나와 있는 대로 웹 브라우저를 사용하여 Office Web Apps 서버 검색 URL에 액세스합니다. 검색 URL은 Office Web Apps 서버 팜을 구성할 때 지정한 *InternalUrl* 매개 변수에 **/hosting/discovery**가 이어지는 형식으로 구성됩니다.
 
-```
     http://servername/hosting/discovery
-```
 
 Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(웹 응용 프로그램 개방형 플랫폼 인터페이스 프로토콜) 검색 XML 파일이 표시됩니다. 해당 파일의 처음 몇 줄은 아래 예제와 같습니다.
 
-```XML
     <?xml version="1.0" encoding="utf-8" ?> 
     - <wopi-discovery>
     - <net-zone name="internal-http">
@@ -229,14 +228,12 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
     <action name="view" ext="xls" default="true" urlsrc="http://servername/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
     <action name="view" ext="xlsb" default="true" urlsrc="http://servername/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
     <action name="view" ext="xlsm" default="true" urlsrc="http://servername/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" /> 
-```
 
 ## 3단계: 호스트 구성
 
 이제 팜이 HTTP를 통해 호스트에 Office Web Apps 기능을 제공할 준비가 되었습니다. [SharePoint 2013용 Office Web Apps 구성](configure-office-web-apps-for-sharepoint-2013.md)을 방문하여 호스트를 구성하는 방법에 대한 자세한 내용을 알아보세요.
 
 ## HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜 배포
-<a name="singlehttps"> </a>
 
 대부분의 프로덕션 환경에서는 보안 기능으로 HTTPS를 사용하는 것이 좋습니다. HTTPS는 Office Web Apps 서버 기능을 Lync Server 2013에 제공하여 브라우저에서 PowerPoint 브로드캐스트를 볼 수 있도록 하려는 경우에도 필요합니다. 다음은 HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 설치하는 방법입니다. [HTTPS를 사용하여 Office Web Apps 서버 통신 보안 유지](plan-office-web-apps-server.md)에 설명된 대로 서버에 인증서를 설치해야 합니다.
 
@@ -250,21 +247,19 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
 **New-OfficeWebAppsFarm** 명령을 사용하여 다음 예제와 같이 단일 서버로 구성되는 새로운 Office Web Apps 서버 팜을 만들 수 있습니다.
 
-```PowerShell
     New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -CertificateName "OfficeWebApps Certificate" -EditingEnabled
-```
 
 **매개 변수**
 
-  - **–InternalURL**은 **http://servername.contoso.com** 과 같은 Office Web Apps 서버 실행 서버의 FQDN(정규화된 도메인 이름)입니다.
+  - **–InternalURL**은 **http://servername.contoso.com**과 같은 Office Web Apps 서버 실행 서버의 FQDN(정규화된 도메인 이름)입니다.
 
   - **–ExternalURL**은 인터넷에서 액세스할 수 있는 FQDN입니다.
 
-  - **–CertificateName** 은 인증서의 이름입니다.
+  - **–CertificateName**은 인증서의 이름입니다.
 
-  - **–EditingEnabled** 는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
+  - **–EditingEnabled**는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 추가 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -272,13 +267,11 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
 팜을 만들고 나면 팜에 대한 세부 정보가 Windows PowerShell 프롬프트에 표시됩니다. Office Web Apps 서버가 제대로 설치 및 구성되었는지 확인하려면 다음 예제에 나와 있는 대로 웹 브라우저를 사용하여 Office Web Apps 서버 검색 URL에 액세스합니다. 검색 URL은 Office Web Apps 서버 팜을 구성할 때 지정한 *InternalUrl* 매개 변수에 **/hosting/discovery**가 이어지는 형식으로 구성됩니다. 예를 들면 다음과 같습니다.
 
-```
     https://server.contoso.com/hosting/discovery
-```
 
 Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(웹 응용 프로그램 개방형 플랫폼 인터페이스 프로토콜) 검색 XML 파일이 표시됩니다. 해당 파일의 처음 몇 줄은 아래 예제와 같습니다.
 
-```XML
+``` 
 <?xml version="1.0" encoding="UTF-8"?>
 <wopi-discovery><net-zone 
 name="internal-https"><app name="Excel" checkLicense="true" 
@@ -287,11 +280,15 @@ name="view"
 urlsrc="https://wac.contoso.com/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" 
 default="true" ext="ods"/><action name="view" 
 urlsrc="https://wac.contoso.com/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" 
-default="true" ext="xls"/><action name="view" 
+default="true" ext="xls"/><action name="view"
+ 
 ```
+
 
 > [!NOTE]
 > 웹 브라우저의 보안 설정에 따라서는 검색 XML 파일의 콘텐츠가 표시되기 전에 <STRONG>모든 콘텐츠 표시</STRONG>를 선택하라는 메시지가 표시될 수도 있습니다.
+
+
 
 ## 3단계: 호스트 구성
 
@@ -302,7 +299,6 @@ default="true" ext="xls"/><action name="view"
   - [Office Web Apps Server 및 Lync Server 2013 배포](https://go.microsoft.com/fwlink/p/?linkid=256902)
 
 ## HTTPS를 사용하는 부하 분산된 다중 서버 Office Web Apps 서버 팜 배포
-<a name="multihttps"> </a>
 
 Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되고 인터넷과 내부 네트워크를 통해 사용할 수 있도록 하려면 이와 같은 유형의 토폴로지를 사용하는 것이 적절합니다. 이 섹션에는 부하 분산 장치 및 HTTPS를 사용하는 다중 서버 Office Web Apps 서버 팜을 설치하는 방법이 나와 있습니다. 관심이 있는 경우 [이 토폴로지에 대한 자세한 정보](plan-office-web-apps-server.md)를 읽어보세요.
 
@@ -316,21 +312,19 @@ Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되�
 
 **New-OfficeWebAppsFarm** 명령을 사용하여 다음 예제와 같이 첫 번째 서버에 새로운 Office Web Apps 서버 팜을 만들 수 있습니다.
 
-```PowerShell
     New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "https://wacweb01.contoso.com" -SSLOffloaded -EditingEnabled
-```
 
 **매개 변수**
 
-  - **–InternalURL**은 **http://servername.contoso.com** 과 같은 Office Web Apps 서버 실행 서버의 FQDN(정규화된 도메인 이름)입니다.
+  - **–InternalURL**은 **http://servername.contoso.com**과 같은 Office Web Apps 서버 실행 서버의 FQDN(정규화된 도메인 이름)입니다.
 
-  - **–ExternalURL** 은 인터넷에서 액세스할 수 있는 FQDN 이름입니다.
+  - **–ExternalURL**은 인터넷에서 액세스할 수 있는 FQDN 이름입니다.
 
-  - **-SSLOffloaded** 는 부하 분산 장치로 SSL 종료 장치를 오프로드할 수 있도록 합니다.
+  - **-SSLOffloaded**는 부하 분산 장치로 SSL 종료 장치를 오프로드할 수 있도록 합니다.
 
-  - **–EditingEnabled** 는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
+  - **–EditingEnabled**는 선택 사항이며, SharePoint 2013과 함께 사용할 경우 Office Web Apps에서 편집 기능을 사용할 수 있도록 합니다. 이 매개 변수는 Lync Server 2013에서는 사용되지 않습니다. 이러한 호스트가 편집을 지원하지 않기 때문입니다.
 
-변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 기타 매개 변수는 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)에 설명되어 있습니다.
+변환 서비스, 프록시 서버, 클립 아트 지원 및 온라인 뷰어를 구성하는 기타 매개 변수는 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)에 설명되어 있습니다.
 
 “500 웹 서비스 예외” 또는 “500.21 – 내부 서버 오류” 메시지가 표시되는 경우
 
@@ -338,29 +332,26 @@ Office Web Apps 서버 팜에 트래픽이 많이 발생할 것으로 예상되�
 
 첫 번째 서버에서 Office Web Apps 서버를 실행한 후 Office Web Apps 서버 팜에 추가할 각 서버에서 **New-OfficeWebAppsMachine** 명령을 실행합니다. **–MachineToJoin** 매개 변수는 Office Web Apps 서버 팜에 이미 있는 서버의 컴퓨터 이름을 사용합니다. 예를 들어 server1.contoso.com이 팜에 이미 있으면 다음을 사용합니다.
 
-```PowerShell
     New-OfficeWebAppsMachine -MachineToJoin "server1.contoso.com"
-```
 
-이러한 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsMachine](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsmachine?view=officewebapps-ps)에서 확인할 수 있습니다.
+이러한 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsMachine](new-officewebappsmachine.md)에서 확인할 수 있습니다.
 
 ## 3단계: Office Web Apps 서버 팜이 정상적으로 만들어졌는지 확인
 
 팜을 만들고 나면 팜에 대한 세부 정보가 Windows PowerShell 프롬프트에 표시됩니다. Office Web Apps 서버가 제대로 설치 및 구성되었는지 확인하려면 다음 예제에 나와 있는 것처럼 웹 브라우저를 사용하여 Office Web Apps 서버 검색 URL에 액세스합니다. 검색 URL은 Office Web Apps 서버 팜을 구성할 때 지정한 *InternalUrl* 매개 변수에 **/hosting/discovery**가 이어지는 형식으로 구성됩니다. 예를 들면 다음과 같습니다.
 
-```
     https://server.contoso.com/hosting/discovery
-```
 
 Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(웹 응용 프로그램 개방형 플랫폼 인터페이스 프로토콜) 검색 XML 파일이 표시됩니다. 해당 파일의 처음 몇 줄은 아래 예제와 같습니다.
 
-```XML
     <?xml version="1.0" encoding="UTF-8"?>
     <wopi-discovery><net-zone name="internal-https"><app name="Excel" checkLicense="true" favIconUrl="https://officewebapps.contoso.com/x/_layouts/images/FavIcon_Excel.ico"><action name="view" urlsrc="https://officewebapps.contoso.com/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" default="true" ext="ods"/><action name="view" urlsrc="https://officewebapps.contoso.com/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" default="true" ext="xls"/><action name="view" urlsrc="https://officewebapps.contoso.com/x/_layouts/xlviewerinternal.aspx?<ui=UI_LLCC&><rs=DC_LLCC&>" default="true" ext="xlsb"/> 
-```
+
 
 > [!NOTE]
 > 웹 브라우저의 보안 설정에 따라서는 검색 XML 파일의 콘텐츠가 표시되기 전에 <STRONG>모든 콘텐츠 표시</STRONG>를 선택하라는 메시지가 표시될 수도 있습니다.
+
+
 
 ## 4단계: 호스트 구성
 
@@ -376,23 +367,19 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
 **Windows Server 2008 R2의 경우**
 
-```PowerShell
     %systemroot%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -iru
 
     iisreset /restart /noforce
-```
 
 **Windows Server 2012 또는 Windows Server 2012 R2의 경우**
 
-```PowerShell
     dism /online /enable-feature /featurename:IIS-ASPNET45
-```
 
 ## 참고 항목
 
 
-[New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)  
-[New-OfficeWebAppsMachine](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsmachine?view=officewebapps-ps)  
+[New-OfficeWebAppsFarm](new-officewebappsfarm.md)  
+[New-OfficeWebAppsMachine](new-officewebappsmachine.md)  
 
 
 [Office Web Apps 서버의 콘텐츠 로드맵](content-roadmap-for-office-web-apps-server.md)  

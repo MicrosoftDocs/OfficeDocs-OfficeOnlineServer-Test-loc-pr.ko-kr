@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 서버의 콘텐츠 로드맵
 TOCTitle: '콘텐츠 로드맵: Office Web Apps 서버'
 ms:assetid: ddf27b4b-c4fc-4ca7-8248-1fd3730b6f3e
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, Office Web Apps Server_
+_**적용 대상:** Office Web Apps, Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** IT 전문가가 Office Web Apps 서버를 배포하고 관리하는 데 도움이 되는 문서, 다운로드 및 기타 리소스에 대해 설명합니다.
 
@@ -102,7 +102,7 @@ Outlook Web App에 대한 정보를 찾고 있는 IT 전문가는 [Exchange 2013
 <li><p>SharePoint 2013에서 사용하기 위해 Office Web Apps 서버를 배포할 경우 <a href="plan-office-web-apps-used-with-sharepoint-2013.md">SharePoint 2013에서 Office Web Apps를 사용하기 위한 계획</a>을 세웁니다.</p></li>
 <li><p>Office Web Apps에 <a href="https://technet.microsoft.com/ko-kr/library/cc263526(v=office.15)">지원되는 브라우저</a>는 SharePoint 2013에 지원되는 브라우저와 같습니다.</p></li>
 <li><p>Office Web Apps는 <a href="plan-office-web-apps-used-with-sharepoint-2013.md">클레임 기반 인증</a>을 사용하는 SharePoint 2013 웹 응용 프로그램에서만 사용할 수 있습니다.</p></li>
-<li><p>Office Web Apps를 사용하여 파일을 보는 것은 무료이지만 SharePoint 2013 온-프레미스에서 Office Web Apps 서버를 사용하는 경우 <a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps">편집할 때 Office Web Apps를 사용하도록 설정</a>하려면 <a href="plan-office-web-apps-used-with-sharepoint-2013.md">편집 라이선스를 구입</a>해야 합니다.</p></li>
+<li><p>Office Web Apps를 사용하여 파일을 보는 것은 무료이지만 SharePoint 2013 온-프레미스에서 Office Web Apps 서버를 사용하는 경우 <a href="new-officewebappsfarm.md">편집할 때 Office Web Apps를 사용하도록 설정</a>하려면 <a href="plan-office-web-apps-used-with-sharepoint-2013.md">편집 라이선스를 구입</a>해야 합니다.</p></li>
 </ul>
 <p><br />
 </p>
@@ -134,7 +134,7 @@ Outlook Web App에 대한 정보를 찾고 있는 IT 전문가는 [Exchange 2013
 <td><p>첫 번째 단계는 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버를 실행할 서버를 준비</a>하는 것입니다. 그런 다음 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버를 설치</a>하고 최신 Office Web Apps 서버 업데이트를 적용한 후 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버용 언어 팩을 설치</a>합니다.</p>
 <p><br />
 </p>
-<p>Office Web Apps 서버의 작동 방식을 평가하려면 <a href="deploy-office-web-apps-server.md">테스트 환경에 단일 서버 Office Web Apps 서버 팜을 배포</a>하면 됩니다. 좀 더 안전하게 배포하려면 <a href="deploy-office-web-apps-server.md#singlehttps">HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 배포</a>해도 됩니다. 많은 사용자를 지원해야 할 경우에는 <a href="deploy-office-web-apps-server.md#multihttps">HTTPS를 사용하는 다중 서버 부하 분산 Office Web Apps 서버 팜을 배포</a>하면 됩니다.</p>
+<p>Office Web Apps 서버의 작동 방식을 평가하려면 <a href="deploy-office-web-apps-server.md">테스트 환경에 단일 서버 Office Web Apps 서버 팜을 배포</a>하면 됩니다. 좀 더 안전하게 배포하려면 <a href="e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5(office.15)#singlehttps">HTTPS를 사용하는 단일 서버 Office Web Apps 서버 팜을 배포</a>해도 됩니다. 많은 사용자를 지원해야 할 경우에는 <a href="e4d51dc4-6460-437d-aa8e-0ae4d3aa8cc5(office.15)#multihttps">HTTPS를 사용하는 다중 서버 부하 분산 Office Web Apps 서버 팜을 배포</a>하면 됩니다.</p>
 <p><br />
 </p>
 <p>Office Web Apps 서버를 배포한 후에는 호스트를 구성해야 합니다. <a href="configure-office-web-apps-for-sharepoint-2013.md">SharePoint 2013을 구성</a>하고, <a href="http://go.microsoft.com/fwlink/p/?linkid=256611">Exchange Server 2013을 구성</a>한 후 <a href="http://go.microsoft.com/fwlink/p/?linkid=256902">Lync Server 2013을 구성</a>하여 Office Web Apps 서버를 사용할 수 있습니다.</p>
@@ -165,10 +165,10 @@ Outlook Web App에 대한 정보를 찾고 있는 IT 전문가는 [Exchange 2013
 <p>SharePoint 2013에서 사용하기 위해 Office Web Apps 서버를 배포한 경우 Office 문서는 기본적으로 브라우저에서 열리지만, <a href="set-the-default-open-behavior-for-browser-enabled-documents-office-web-apps-when-used-with-sharepoint-2013.md">Office 문서가 클라이언트에서 열리도록 이 동작을 변경</a>할 수 있습니다.</p>
 <p><br />
 </p>
-<p>조직에서 Excel Web App 대신 Excel Services를 사용하여 브라우저에서 통합 문서를 보기로 결정한 경우, Windows PowerShell cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/New-SPWOPISuppressionSetting?view=sharepoint-ps">New-SPWOPISuppressionSetting</a>을 사용하여 Excel 통합 문서에서 Excel Web App의 설정을 해제할 수 있습니다.</p>
+<p>조직에서 Excel Web App 대신 Excel Services를 사용하여 브라우저에서 통합 문서를 보기로 결정한 경우, Windows PowerShell cmdlet <a href="new-spwopisuppressionsetting.md">New-SPWOPISuppressionSetting</a>을 사용하여 Excel 통합 문서에서 Excel Web App의 설정을 해제할 수 있습니다.</p>
 <p><br />
 </p>
-<p><a href="configure-office-web-apps-for-sharepoint-2013.md">Office Web Apps 서버에서 SharePoint 2013을 분리</a>하려면 Windows PowerShell cmdlet <a href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/Remove-SPWOPIBinding?view=sharepoint-ps">Remove-SPWOPIBinding</a>을 사용합니다.</p></td>
+<p><a href="configure-office-web-apps-for-sharepoint-2013.md">Office Web Apps 서버에서 SharePoint 2013을 분리</a>하려면 Windows PowerShell cmdlet <a href="remove-spwopibinding.md">Remove-SPWOPIBinding</a>을 사용합니다.</p></td>
 </tr>
 <tr class="even">
 <td><img src="images/Dn135237.17bfbe9e-7e0e-48dd-887b-b94f8d8f9f22(Office.15).png" title="문제 해결 아이콘" alt="문제 해결 아이콘" /></td>
@@ -183,13 +183,13 @@ Outlook Web App에 대한 정보를 찾고 있는 IT 전문가는 [Exchange 2013
 </p>
 <p>Office Web Apps 서버</p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/?view=officewebapps-ps">Office Web Apps Server용 Windows PowerShell</a></p></li>
+<li><p><a href="windows-powershell-for-office-web-apps-server.md">Office Web Apps Server용 Windows PowerShell</a></p></li>
 </ul>
 <p><br />
 </p>
 <p>SharePoint 2013</p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/?view=sharepoint-ps">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></li>
+<li><p><a href="windows-powershell-for-office-web-apps-sharepoint-2013.md">Office Web Apps용 Windows PowerShell(SharePoint 2013)</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
