@@ -1,4 +1,4 @@
-﻿---
+---
 title: Office Web Apps 서버 계획
 TOCTitle: Office Web Apps 서버 계획
 ms:assetid: 2e147f11-6f47-46bc-90bf-b2f179958d11
@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_**적용 대상:** Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2017-10-10_
+_**마지막으로 수정된 항목:** 2017-10-10_
 
 **요약:** HTTPS, 인증서, 가상화, 부하 분산, 토폴로지 및 보안 등 Office Web Apps 서버의 요구 사항과 필수 구성 요소에 대해 설명합니다.
 
@@ -332,7 +332,7 @@ Office Web Apps 서버 2013 언어 팩을 사용하면 SharePoint 2013 문서 �
 
   - **들어오고 나가는 통신 계획.** 인터넷 연결 배포에서 나가는 모든 통신을 NAT 장치를 통해 라우팅합니다. 다중 서버 팜에서 들어오는 모든 통신을 부하 분산 장치를 통해 처리합니다.
 
-  - **Office Web Apps 서버 팜의 모든 서버가 도메인에 가입되어 있고 같은 OU(조직 구성 단위)에 속함.** [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) cmdlet에서 **FarmOU** 매개 변수를 사용하여 이 OU에 속하지 않은 다른 서버가 팜에 가입하지 않도록 합니다.
+  - **Office Web Apps 서버 팜의 모든 서버가 도메인에 가입되어 있고 같은 OU(조직 구성 단위)에 속함.** [New-OfficeWebAppsFarm](new-officewebappsfarm.md) cmdlet에서 **FarmOU** 매개 변수를 사용하여 이 OU에 속하지 않은 다른 서버가 팜에 가입하지 않도록 합니다.
 
   - **들어오는 모든 요청에 HTTPS(Hypertext Transfer Protocol Secure) 사용**
 
@@ -390,13 +390,13 @@ HTTP를 사용할 경우 부하 분산 장치와 Office Web Apps 서버를 실�
 
 ## OU 구성원 자격을 기준으로 Office Web Apps 서버 팜에 참가할 수 있는 서버 제한
 
-권한이 없는 서버용으로 조직 구성 단위를 만들고 나서 팜을 만들 때 FarmOU 매개 변수를 지정하면 권한 없는 서버가 Office Web Apps 서버 팜에 가입하지 못하도록 할 수 있습니다. FarmOU 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)을 참조하세요.
+권한이 없는 서버용으로 조직 구성 단위를 만들고 나서 팜을 만들 때 FarmOU 매개 변수를 지정하면 권한 없는 서버가 Office Web Apps 서버 팜에 가입하지 못하도록 할 수 있습니다. FarmOU 매개 변수에 대한 자세한 내용은 [New-OfficeWebAppsFarm](new-officewebappsfarm.md)을 참조하세요.
 
 ## 허용 목록을 사용하여 Office Web Apps 서버에 대한 호스트 액세스 제한
 
 허용 목록은 원치 않는 호스트가 Office Web Apps 서버 팜에 연결하여 관리자 동의 없이 팜을 파일 작업에 사용하지 못하도록 하는 보안 기능입니다. 승인된 호스트를 포함하는 도메인을 허용 목록에 추가하면 Office Web Apps 서버에서 파일 검색, 메타데이터 검색, 파일 변경 등의 파일 작업 요청을 허용하는 호스트를 제한할 수 있습니다.
 
-Office Web Apps 서버 팜을 만든 다음 허용 목록에 도메인을 추가할 수 있습니다. 허용 목록에 도메인을 추가하는 방법은 [New-OfficeWebAppsHost](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappshost?view=officewebapps-ps)를 참조하세요.
+Office Web Apps 서버 팜을 만든 다음 허용 목록에 도메인을 추가할 수 있습니다. 허용 목록에 도메인을 추가하는 방법은 [New-OfficeWebAppsHost](new-officewebappshost.md)를 참조하세요.
 
 
 > [!IMPORTANT]
@@ -406,19 +406,19 @@ Office Web Apps 서버 팜을 만든 다음 허용 목록에 도메인을 추가
 
 ## Office Web Apps 서버에서 온라인 뷰어 계획
 
-기본적으로 온라인 뷰어 기능은 Office Web Apps 서버를 설치하고 면 사용하도록 설정됩니다. 조직에서 온라인 뷰어를 사용하려는 경우 다음 지침을 검토하세요. 온라인 뷰어 내에서 일부 기능을 사용하지 않도록 설정해야 하는 경우도 있습니다. 이 지침에서는 Windows PowerShell cmdlet [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) 및 [Set-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/set-officewebappsfarm?view=officewebapps-ps)을 사용하여 설정되는 매개 변수를 참조합니다.
+기본적으로 온라인 뷰어 기능은 Office Web Apps 서버를 설치하고 면 사용하도록 설정됩니다. 조직에서 온라인 뷰어를 사용하려는 경우 다음 지침을 검토하세요. 온라인 뷰어 내에서 일부 기능을 사용하지 않도록 설정해야 하는 경우도 있습니다. 이 지침에서는 Windows PowerShell cmdlet [New-OfficeWebAppsFarm](new-officewebappsfarm.md) 및 [Set-OfficeWebAppsFarm](set-officewebappsfarm.md)을 사용하여 설정되는 매개 변수를 참조합니다.
 
 ## 온라인 뷰어에 대한 보안 고려 사항
 
 온라인 뷰어를 사용하여 웹 브라우저에서 볼 수 있는 파일에는 인증이 필요하지 않아야 합니다. 즉 온라인 뷰어는 파일을 검색할 때 인증을 수행할 수 없기 때문에 이러한 파일은 공개적으로 사용할 수 있어야 합니다. 온라인 뷰어에서 사용하는 Office Web Apps 서버 팜은 인트라넷과 인터넷 모두가 아닌 둘 중 하나에만 액세스할 수 있도록 하는 것이 좋습니다. Office Web Apps 서버는 인트라넷 URL과 인터넷 URL 요청을 구분하지 않기 때문입니다. 예를 들면 인터넷 사용자가 인트라넷 URL을 요청할 수 있게 되므로, 내부 문서가 인터넷 사용자에게 제공되면 보안상 위험해질 수 있습니다.
 
-같은 이유로 Office Web Apps 서버가 인터넷에만 연결하도록 설정하는 경우에는 온라인 뷰어에서 UNC 지원을 해제하는 것이 좋습니다. UNC 지원을 해제하려면 Windows PowerShell cmdlet [New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)(새 팜) 또는 [Set-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/set-officewebappsfarm?view=officewebapps-ps)(기존 팜)을 사용하여 OpenFromUncEnabled 매개 변수를 False로 설정합니다.
+같은 이유로 Office Web Apps 서버가 인터넷에만 연결하도록 설정하는 경우에는 온라인 뷰어에서 UNC 지원을 해제하는 것이 좋습니다. UNC 지원을 해제하려면 Windows PowerShell cmdlet [New-OfficeWebAppsFarm](new-officewebappsfarm.md)(새 팜) 또는 [Set-OfficeWebAppsFarm](set-officewebappsfarm.md)(기존 팜)을 사용하여 OpenFromUncEnabled 매개 변수를 False로 설정합니다.
 
 추가적인 보안 예방 조치로, 온라인 뷰어는 10MB 이하의 Office 파일만 볼 수 있도록 제한됩니다.
 
 ## 온라인 뷰어의 구성 옵션
 
-[New-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps)(새 팜) 또는 [Set-OfficeWebAppsFarm](https://docs.microsoft.com/en-us/powershell/module/officewebapps/set-officewebappsfarm?view=officewebapps-ps)(기존 팜)에서 다음 Windows PowerShell 매개 변수를 사용하여 온라인 뷰어를 구성할 수 있습니다.
+[New-OfficeWebAppsFarm](new-officewebappsfarm.md)(새 팜) 또는 [Set-OfficeWebAppsFarm](set-officewebappsfarm.md)(기존 팜)에서 다음 Windows PowerShell 매개 변수를 사용하여 온라인 뷰어를 구성할 수 있습니다.
 
   - **OpenFromUrlEnabled** 온라인 뷰어를 설정하거나 해제합니다. 이 매개 변수는 URL 및 UNC 경로가 포함된 파일에 대한 온라인 뷰어 기능을 제어합니다. 기본적으로 새 Office Web Apps 서버 팜을 만들 때 이 매개 변수는 False(사용 안 함)로 설정됩니다.
 
@@ -448,5 +448,5 @@ WSUS 또는 System Center 구성 관리자를 사용하지 않으려면 Office W
 [(데스크톱 또는 모바일 장치에서 Office Web Apps에 대 한 지원)에 대 한 Office.com](https://go.microsoft.com/fwlink/p/?linkid=266657)  
   
 
-[https://technet.microsoft.com/ko-kr/library/jj966220](apply-software-updates-to-office-web-apps-server.md)
+[apply-software-updates-to-office-web-apps-server.md](apply-software-updates-to-office-web-apps-server.md)
 
