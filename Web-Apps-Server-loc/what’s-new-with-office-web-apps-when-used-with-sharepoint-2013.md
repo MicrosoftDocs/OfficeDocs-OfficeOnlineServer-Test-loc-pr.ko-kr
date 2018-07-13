@@ -1,4 +1,4 @@
-﻿---
+---
 title: SharePoint 2013과 함께 사용할 때 제공되는 Office Web Apps의 새로운 기능
 TOCTitle: SharePoint 2013과 함께 사용할 때 제공되는 Office Web Apps의 새로운 기능
 ms:assetid: fc26f45c-fdd2-45be-a924-c8a1c0a5924c
@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_**적용 대상:** Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_**마지막으로 수정된 항목:** 2016-12-16_
 
 **요약:** Office Web Apps를 사용하는 경우 SharePoint 2013 사용자 및 관리자에게 제공되는 새 기능에 대해 설명합니다.
 
