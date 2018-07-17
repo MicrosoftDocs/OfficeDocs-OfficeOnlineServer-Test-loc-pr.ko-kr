@@ -121,9 +121,13 @@ Office Web Apps 서버에서는 영역을 사용하여 호스트(이 경우 Shar
 
 ```PowerShell
     $config = (Get-SPSecurityTokenServiceConfig)
+```
 
+```PowerShell
     $config.AllowOAuthOverHttp = $true
+```
 
+```PowerShell
     $config.Update()
 ```
 
