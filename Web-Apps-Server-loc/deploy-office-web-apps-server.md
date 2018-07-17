@@ -200,7 +200,7 @@ Office Web Apps 서버 팜을 사용하여 SharePoint 2013에 Office Web Apps �
 
 **매개 변수**
 
-  - **–InternalURL**은 **http://servername**과 같은 Office Web Apps 서버를 실행하는 서버의 이름입니다.
+  - **–InternalURL**은 <strong>http://servername</strong>과 같은 Office Web Apps 서버를 실행하는 서버의 이름입니다.
 
   - **–AllowHttp**는 HTTP를 사용하도록 팜을 구성합니다.
 
