@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_<strong>적용 대상:</strong>Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
-**요약:** Office Web Apps, Office Web Apps 서버에 대한 내용과 이러한 제품이 SharePoint 2013과 함께 온-프레미스에서 작동하는 방법에 대해 설명합니다.
+**요약:**Office Web Apps, Office Web Apps 서버에 대한 내용과 이러한 제품이 SharePoint 2013과 함께 온-프레미스에서 작동하는 방법에 대해 설명합니다.
 
 **대상:** IT 전문가
 

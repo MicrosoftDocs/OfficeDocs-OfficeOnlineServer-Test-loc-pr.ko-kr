@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_<strong>적용 대상:</strong>Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
 **요약:** SharePoint 2013 온-프레미스와 함께 사용하는 경우의 Office Web Apps에 대한 계획 지침을 검토합니다.
 

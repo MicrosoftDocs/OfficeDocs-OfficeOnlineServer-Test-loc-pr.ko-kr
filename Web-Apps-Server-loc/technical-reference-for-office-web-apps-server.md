@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_<strong>적용 대상:</strong>Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
-**요약:** OfficeWebApps Windows PowerShell cmdlet 도움말 등의 Office Web Apps Server 관련 기술 참조 문서에 대한 링크를 제공합니다.
+**요약:**OfficeWebApps Windows PowerShell cmdlet 도움말 등의 Office Web Apps Server 관련 기술 참조 문서에 대한 링크를 제공합니다.
 
 **대상:** IT 전문가
 

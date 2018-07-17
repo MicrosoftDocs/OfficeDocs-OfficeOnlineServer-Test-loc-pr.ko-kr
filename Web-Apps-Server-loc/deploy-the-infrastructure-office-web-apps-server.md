@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps Server_
+_<strong>적용 대상:</strong>Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
-**요약:** Office Web Apps Server 및 이 제품이 호스트에 대해 Office Web Apps 기능을 제공하는 방법에 관해 설명하는 문서를 소개합니다.
+**요약:**Office Web Apps Server 및 이 제품이 호스트에 대해 Office Web Apps 기능을 제공하는 방법에 관해 설명하는 문서를 소개합니다.
 
 **대상:** IT 전문가
 

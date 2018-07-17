@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:** Office Web Apps Server
+_<strong>적용 대상:</strong>Office Web Apps Server
 
-_**마지막으로 수정된 항목:** 2016-12-16
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16
 
-**요약:** Office Web Apps 서버 팜에 소프트웨어 업데이트를 적용하는 방법에 대해 설명합니다.
+**요약:**Office Web Apps 서버 팜에 소프트웨어 업데이트를 적용하는 방법에 대해 설명합니다.
 
 **대상:** IT 전문가
 

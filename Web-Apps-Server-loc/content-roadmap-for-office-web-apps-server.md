@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, Office Web Apps Server_
+_<strong>적용 대상:</strong>Office Web Apps, Office Web Apps Server_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
 **요약:** IT 전문가가 Office Web Apps 서버를 배포하고 관리하는 데 도움이 되는 문서, 다운로드 및 기타 리소스에 대해 설명합니다.
 

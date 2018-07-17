@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_<strong>적용 대상:</strong>Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2017-05-26_
+_<strong>마지막으로 수정된 항목:</strong>2017-05-26_
 
 **요약:** SharePoint 2013 온-프레미스용 Office Web Apps를 배포하고 구성하는 방법에 대한 정보를 제공하는 문서를 소개합니다.
 

@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**적용 대상:**Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
+_<strong>적용 대상:</strong>Office Web Apps, SharePoint Foundation 2013, SharePoint Server 2013_
 
-_**마지막으로 수정된 항목:**2016-12-16_
+_<strong>마지막으로 수정된 항목:</strong>2016-12-16_
 
-**요약:** Office Web Apps를 사용하는 경우 SharePoint 2013 사용자 및 관리자에게 제공되는 새 기능에 대해 설명합니다.
+**요약:**Office Web Apps를 사용하는 경우 SharePoint 2013 사용자 및 관리자에게 제공되는 새 기능에 대해 설명합니다.
 
 
 SharePoint 2013의 문서 라이브러리에 포함된 Office 파일로 작업하는 사용자는 다음 표에 나와 있는 몇 가지 새로운 기능을 활용할 수 있습니다.
