@@ -378,7 +378,9 @@ Office Web Apps 서버가 정상적으로 작동하면 웹 브라우저에 WOPI(
 
 ```PowerShell
     %systemroot%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -iru
+```
 
+```PowerShell
     iisreset /restart /noforce
 ```
 
