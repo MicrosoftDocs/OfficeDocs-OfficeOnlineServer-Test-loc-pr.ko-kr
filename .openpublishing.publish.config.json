@@ -4,7 +4,7 @@
       "docset_name": "OfficeDocs-Web-Apps-Server-loc",
       "build_source_folder": "Web-Apps-Server-loc",
       "build_output_subfolder": "Web-Apps-Server-loc",
-      "locale": "ja-jp",
+      "locale": "ko-kr",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -25,7 +25,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ja-jp",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ko-kr",
       "branch": "master",
       "branch_mapping": {}
     },
