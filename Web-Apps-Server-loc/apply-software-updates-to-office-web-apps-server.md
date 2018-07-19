@@ -29,19 +29,9 @@ Office Web Apps 서버가 새로 출시된 후 Microsoft에서는 서버 보안,
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ966220.warning(Office.15).gif" title="경고" alt="경고" /><strong>경고:</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>자동 업데이트 프로세스를 통해 Office Web Apps 서버 업데이트를 적용하는 것은 Office Web Apps 서버에서 지원되지 않습니다. Office Web Apps 서버의 업데이트는 이 문서에 설명된 대로 특정 방식으로 적용해야 하기 때문입니다. Office Web Apps 서버 업데이트를 자동으로 적용하면 사용자가 Office Web Apps에서 문서를 보거나 편집하지 못할 수 있습니다. 이 경우 Office Web Apps 서버 팜을 다시 구성해야 합니다. 팜을 다시 구성하려면 <a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/remove-officewebappsmachine?view=officewebapps-ps">Remove-OfficeWebAppsMachine</a>을 사용하여 팜에서 Office Web Apps 서버를 제거하고 프로그램 추가/제거를 사용하여 Office Web Apps 서버를 제거한 다음 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버 배포</a>에 설명된 단계에 따라 Office Web Apps 서버를 제거해야 합니다. 다시 설치할 후에는 이 문서에 설명된 단계에 따라 업데이트를 적용합니다.<br />
-<a href="plan-office-web-apps-server.md">Office Web Apps Server 업데이트 계획</a>의 지침을 검토하고 Office Web Apps 서버 팜에 대한 업데이트 프로세스를 설정해야 합니다.</td>
-</tr>
-</tbody>
-</table>
+> [!WARNING] 
+> 자동 업데이트 프로세스를 통해 Office Web Apps 서버 업데이트를 적용하는 것은 Office Web Apps 서버에서 지원되지 않습니다. Office Web Apps 서버의 업데이트는 이 문서에 설명된 대로 특정 방식으로 적용해야 하기 때문입니다. Office Web Apps 서버 업데이트를 자동으로 적용하면 사용자가 Office Web Apps에서 문서를 보거나 편집하지 못할 수 있습니다. 이 경우 Office Web Apps 서버 팜을 다시 구성해야 합니다. 팜을 다시 구성하려면 <a href="https://docs.microsoft.com/en-us/powershell/module/officewebapps/remove-officewebappsmachine?view=officewebapps-ps">Remove-OfficeWebAppsMachine</a>을 사용하여 팜에서 Office Web Apps 서버를 제거하고 프로그램 추가/제거를 사용하여 Office Web Apps 서버를 제거한 다음 <a href="deploy-office-web-apps-server.md">Office Web Apps 서버 배포</a>에 설명된 단계에 따라 Office Web Apps 서버를 제거해야 합니다. 다시 설치할 후에는 이 문서에 설명된 단계에 따라 업데이트를 적용합니다.<br />
+<a href="plan-office-web-apps-server.md">Office Web Apps Server 업데이트 계획</a>의 지침을 검토하고 Office Web Apps 서버 팜에 대한 업데이트 프로세스를 설정해야 합니다.
 
 
 ## 시작하기 전에
